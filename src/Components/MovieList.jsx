@@ -43,8 +43,9 @@ function MovieList({ genreId, index_ }) {
                 ))}
             </div>
             <HiChevronRight onClick={() => sliderRight(elementRef.current)}
-                className={`text-[50px] text-white p-2 z-10 top-0 cursor-pointer
-            hidden md:block absolute right-0 mt-[150px]
+                className={`text-[50px] text-white 
+                p-2 z-10 top-0 cursor-pointer
+            hidden md:block absolute right-0
             ${index_ % 3 == 0 ? 'mt-[100px]' : 'mt-[150px]'}`} />
         </div>
     )
