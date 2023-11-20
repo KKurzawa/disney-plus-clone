@@ -1,5 +1,5 @@
 import { HiHome, HiMagnifyingGlass, HiStar, HiTv, HiPlayCircle } from "react-icons/hi2";
-import { HiPlus, HiDotsVertical } from 'react-icons/hi';
+import { HiPlus } from 'react-icons/hi';
 
 const icons = [
     {
