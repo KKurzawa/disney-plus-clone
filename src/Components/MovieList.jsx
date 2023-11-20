@@ -2,7 +2,7 @@ import GlobalApi from "../Services/GlobalApi";
 import { useEffect, useState, useRef } from "react";
 import MovieCard from "./MovieCard";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import HrMovieCard from "./HrMovieCard";
+// import HrMovieCard from "./HrMovieCard";
 
 function MovieList({ genreId, index_ }) {
     const [movieList, setMovieList] = useState([]);
@@ -36,9 +36,9 @@ function MovieList({ genreId, index_ }) {
 
             <div ref={elementRef} className="flex overflow-x-auto gap-8 
             scrollbar-none scroll-smooth pt-5 px-3 pb-5 text-center" >
-                {movieList.map((item, index) => (
+                {movieList.map((item) => (
                     <>
-                        {index_ % 3 == 0 ? <HrMovieCard movie={item} /> : <MovieCard movie={item} />}
+                        {<MovieCard movie={item} />}
                     </>
                 ))}
             </div>
