@@ -7,15 +7,11 @@ A clone of the Disney+ website built with React, Vite, Tailwind, the TMBD API, a
  
 ## Usage
 
-This app was built as an excercise for me to further my React skills and get an introduction to Tailwind. Currently the only functional links are to the Disney+ website and my Github portfolio.  Future development will implement links on each movie poster to a page with information on the selected movie.
+This app was built as an exercise for me to further my React skills and get an introduction to Tailwind. Currently the only functional links are to the Disney+ website and my Github portfolio.  Future development will implement links on each movie poster to a page with information on the selected movie.  The site is fully responsive to mobile layout.
 
 ![screenshot1](https://github.com/KKurzawa/React-Portfolio/blob/main/public/Screenshot1.png)
 
 ![screenshot2](https://github.com/KKurzawa/React-Portfolio/blob/main/public/Screenshot2.png)
-
-![screenshot3](https://github.com/KKurzawa/React-Portfolio/blob/main/public/Screenshot4.png)
-
-![screenshot4](https://github.com/KKurzawa/React-Portfolio/blob/main/public/Screenshot3.png)
 
 [Github Repository](https://github.com/KKurzawa/disney-plus-clone)
 
@@ -23,7 +19,9 @@ This app was built as an excercise for me to further my React skills and get an 
 
 ## Credits
 
-n/a
+[Tutorial to Build App](https://www.youtube.com/watch?v=3NHYl0Lo74A)
+
+[Tutorial Creator's YouTube Channel](https://www.youtube.com/@tubeguruji)
 
 ## Questions
 
